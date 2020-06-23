@@ -231,14 +231,25 @@ Please notice this analysis is only a starting line to find and define business 
 ## 7. Reference <a name="references"></a>
 
 [1] Vieregge, M., Lin, J. J., Drakopoulos, R., & Bruggmann, C. (2009). Immigrants Perception of Ethnic Restaurants: The Case of Asian Immigrants Perception of Chinese Restaurants in Switzerland. Tourism Culture & Communication, 9(1), 49–64. doi: 10.3727/109830409787556684
+
 [2] [Finding Optimal Locations of New Stores by IBM](http://ibmdecisionoptimization.github.io/docplex-doc/mp/chicago_coffee_shops.html)
+
 [3] [Generating GeoJSON File for Toronto FSAs by Amy Gordon](https://medium.com/dataexplorations/generating-geojson-file-for-toronto-fsas-9b478a059f04)
+
 [4] [Housing Sales Prices & Venues Data Analysis of Istanbul by Sercan Yıldız](https://www.linkedin.com/pulse/housing-sales-prices-venues-data-analysis-ofistanbul-sercan-y%C4%B1ld%C4%B1z/)
+
 [5] [Visualizing Geospatial Data in Python Using Folium by Aly Sivji](https://alysivji.github.io/getting-started-with-folium.html)
+
 [6] [Folium Documentation 0.11.0](https://python-visualization.github.io/folium/)
+
 [7] [Matplotlib 3.2.1 Documentation](https://matplotlib.org/3.2.1/contents.html)
+
 [8] [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+
 [9] [Statistics Canada](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/pd-pl/comprehensive.cfm)
+
 [10] [Toronto Open Data](https://open.toronto.ca/)
+
 [11] [Color encyclopedia](https://www.colorhexa.com/)
+
 [12] [Fousquare Developer Documentation](https://developer.foursquare.com/docs/places-api/authentication)

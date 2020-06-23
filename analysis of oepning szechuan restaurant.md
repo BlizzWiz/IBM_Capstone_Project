@@ -51,8 +51,8 @@ List of Data obtained and cleaned:
 * Number of Chinese Restaurants and Szechuan Restaurants in Toronto ( using Foursquare API )
 * Toronto GeoJSON file
 * East and Southeast Asian population of Toronto
-* Coordinates of City Center, Toronto**
-* Chinatown area GeoJson of Toronto**
+* Coordinates of City Center, Toronto
+* Chinatown area GeoJson of Toronto
 
 ## 3. Methodology<a name="methodology"></a>
 
@@ -126,101 +126,101 @@ Now we have our candidate clusters for opening new Szechuan Restaurants. In orde
 
 Let us take a look at clusters, from outlier cluster label 0 to label 12. Outlier with label -1 will not be included in the analysis.
 
-* **Cluster 0: Potential**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
-4) High population density of East and Southeast Asian origins.\
+* **Cluster 0: Potential**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
+4) High population density of East and Southeast Asian origins.
 ![Cluster 0](https://user-images.githubusercontent.com/10215660/85417635-6d38f480-b5a2-11ea-8933-290070bc845f.png)
 
-* **Cluster 1: Potential**.\
-1) In Chinese Restaurants Clusters;\
-2) Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 1: Potential**.
+1) In Chinese Restaurants Clusters;
+2) Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) High population density of East and Southeast Asian origins.
 ![Cluster 1](https://user-images.githubusercontent.com/10215660/85417638-6dd18b00-b5a2-11ea-9ad0-1afd5a056d56.png)
 
-* **Cluster 2: Not Recommended**.\
-1) Out of Chinese Restaurants Clusters (potential outlier);\
-2) No Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 2: Not Recommended**.
+1) Out of Chinese Restaurants Clusters (potential outlier);
+2) No Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) High population density of East and Southeast Asian origins.
 ![Cluster 2](https://user-images.githubusercontent.com/10215660/85417640-6e6a2180-b5a2-11ea-9c51-e31c66597181.png)
 
 
-* **Cluster 3: Not Recommended**.\
-1) In Chinese Restaurants Clusters;\
-2) **FOUR** Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 3: Not Recommended**.
+1) In Chinese Restaurants Clusters;
+2) **FOUR** Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) High population density of East and Southeast Asian origins.
 ![Cluster 3](https://user-images.githubusercontent.com/10215660/85417643-6f02b800-b5a2-11ea-86b6-c7f2137a93aa.png)
 
-* **Cluster 4: Fair**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) Out of Downtown BIA area;\
+* **Cluster 4: Fair**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) Out of Downtown BIA area;
 4) Moderate population density of East and Southeast Asian origins (Near Chinatown).
 ![Cluster 4](https://user-images.githubusercontent.com/10215660/85417647-6f9b4e80-b5a2-11ea-8926-4721f0cfbc31.png)
 
-* **Cluster 5: Potential**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 5: Potential**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) Low population density of East and Southeast Asian origins (Near Chinatown).
 ![Cluster 5](https://user-images.githubusercontent.com/10215660/85417652-7033e500-b5a2-11ea-8d32-4ebcd7ae705d.png)
 
-* **Cluster 6: Potential**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 6: Potential**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) Low population density of East and Southeast Asian origins (Near Chinatown).
 ![Cluster 6](https://user-images.githubusercontent.com/10215660/85417655-70cc7b80-b5a2-11ea-9407-19bade73b189.png)
 
-* **Cluster 7: Not Recommended**.\
-1) In Chinese Restaurants Clusters;\
-2) **SIX** Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 7: Not Recommended**.
+1) In Chinese Restaurants Clusters;
+2) **SIX** Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) High population density of East and Southeast Asian origins (Chinatown).
 ![Cluster 7](https://user-images.githubusercontent.com/10215660/85417658-71651200-b5a2-11ea-8b40-5b43aa630285.png)
 
-* **Cluster 8: Fair**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) Not in Downtown BIA area;\
+* **Cluster 8: Fair**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) Not in Downtown BIA area;
 4) Moderate population density of East and Southeast Asian origins.
 ![Cluster 8](https://user-images.githubusercontent.com/10215660/85417661-71fda880-b5a2-11ea-947f-5d3c9ebdcc2b.png)
 
-* **Cluster 9: Fair**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) Not in Downtown BIA area;\
+* **Cluster 9: Fair**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) Not in Downtown BIA area;
 4) Moderate population density of East and Southeast Asian origins.
 ![Cluster 9](https://user-images.githubusercontent.com/10215660/85417662-72963f00-b5a2-11ea-93d1-3987357716c6.png)
 
-* **Cluster 10: Fair**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) Not in Downtown BIA area;\
+* **Cluster 10: Fair**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) Not in Downtown BIA area;
 4) High population density of East and Southeast Asian origins.
 ![Cluster 10](https://user-images.githubusercontent.com/10215660/85417664-732ed580-b5a2-11ea-8732-fdd5505f2a56.png)
 
-* **Cluster 11: Fair**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) Not in Downtown BIA area;\
+* **Cluster 11: Fair**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) Not in Downtown BIA area;
 4) High population density of East and Southeast Asian origins.
 ![Cluster 11](https://user-images.githubusercontent.com/10215660/85417666-73c76c00-b5a2-11ea-9344-d83afe75d767.png)
 
-* **Cluster 12: Fair**.\
-1) In Chinese Restaurants Clusters;\
-2) No Szechuan Restaurant in Cluster;\
-3) In Downtown BIA area;\
+* **Cluster 12: Fair**.
+1) In Chinese Restaurants Clusters;
+2) No Szechuan Restaurant in Cluster;
+3) In Downtown BIA area;
 4) Low population density of East and Southeast Asian origins.
 ![Cluster 12](https://user-images.githubusercontent.com/10215660/85417668-74600280-b5a2-11ea-9c88-4150af18a750.png)
 
 ## 6. Conclusion <a name="conclusion"></a>
 
-![Cluster 12](pohttps://user-images.githubusercontent.com/10215660/85417674-7629c600-b5a2-11ea-8e05-347e070bed4e.png)
+![Potential Cluster](https://user-images.githubusercontent.com/10215660/85417674-7629c600-b5a2-11ea-8e05-347e070bed4e.png)
 
 Finally we have spotted 4 clusters with high potential to open new business. We give it star label with colour blue.
 
@@ -230,15 +230,15 @@ Please notice this analysis is only a starting line to find and define business 
 
 ## 7. Reference <a name="references"></a>
 
-[1] Vieregge, M., Lin, J. J., Drakopoulos, R., & Bruggmann, C. (2009). Immigrants Perception of Ethnic Restaurants: The Case of Asian Immigrants Perception of Chinese Restaurants in Switzerland. Tourism Culture & Communication, 9(1), 49–64. doi: 10.3727/109830409787556684 \
-[2] [Finding Optimal Locations of New Stores by IBM](http://ibmdecisionoptimization.github.io/docplex-doc/mp/chicago_coffee_shops.html) \
-[3] [Generating GeoJSON File for Toronto FSAs by Amy Gordon](https://medium.com/dataexplorations/generating-geojson-file-for-toronto-fsas-9b478a059f04) \
-[4] [Housing Sales Prices & Venues Data Analysis of Istanbul by Sercan Yıldız](https://www.linkedin.com/pulse/housing-sales-prices-venues-data-analysis-ofistanbul-sercan-y%C4%B1ld%C4%B1z/) \
+[1] Vieregge, M., Lin, J. J., Drakopoulos, R., & Bruggmann, C. (2009). Immigrants Perception of Ethnic Restaurants: The Case of Asian Immigrants Perception of Chinese Restaurants in Switzerland. Tourism Culture & Communication, 9(1), 49–64. doi: 10.3727/109830409787556684
+[2] [Finding Optimal Locations of New Stores by IBM](http://ibmdecisionoptimization.github.io/docplex-doc/mp/chicago_coffee_shops.html)
+[3] [Generating GeoJSON File for Toronto FSAs by Amy Gordon](https://medium.com/dataexplorations/generating-geojson-file-for-toronto-fsas-9b478a059f04)
+[4] [Housing Sales Prices & Venues Data Analysis of Istanbul by Sercan Yıldız](https://www.linkedin.com/pulse/housing-sales-prices-venues-data-analysis-ofistanbul-sercan-y%C4%B1ld%C4%B1z/)
 [5] [Visualizing Geospatial Data in Python Using Folium by Aly Sivji](https://alysivji.github.io/getting-started-with-folium.html)
-[6] [Folium Documentation 0.11.0](https://python-visualization.github.io/folium/) \
-[7] [Matplotlib 3.2.1 Documentation](https://matplotlib.org/3.2.1/contents.html) \
-[8] [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html) \
-[9] [Statistics Canada](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/pd-pl/comprehensive.cfm) \
-[10] [Toronto Open Data](https://open.toronto.ca/) \
-[11] [Color encyclopedia](https://www.colorhexa.com/) \
+[6] [Folium Documentation 0.11.0](https://python-visualization.github.io/folium/)
+[7] [Matplotlib 3.2.1 Documentation](https://matplotlib.org/3.2.1/contents.html)
+[8] [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+[9] [Statistics Canada](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/pd-pl/comprehensive.cfm)
+[10] [Toronto Open Data](https://open.toronto.ca/)
+[11] [Color encyclopedia](https://www.colorhexa.com/)
 [12] [Fousquare Developer Documentation](https://developer.foursquare.com/docs/places-api/authentication)

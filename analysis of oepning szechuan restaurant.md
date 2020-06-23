@@ -74,33 +74,33 @@ Last I will use __Density Based Clustering__ to find patterns of Chinese/Szechua
 ### 4.1 Visualize number of Chinese Restaurants in Toronto ( neighbourhoods )
 
 Here we can create a bar chart to better analyze the data.
-/markdown/bar-1.png
+![Neighbourhood Bar Chart ](https://user-images.githubusercontent.com/10215660/85417615-68744080-b5a2-11ea-8156-5f3023078539.png)
 We can see from the bar chart that the dominant number of Chinese Restaurants are in Kensington Market, Chinatown and Grange Park, all of them are in downtown area, which totally make sense since it is the commercial and business center of a city.
 
 ### 4.2 Visualize number of Chinese Restaurants in Toronto ( boroughs )
 
 We can also create a bar chart to show number of Chinese Restaurants in different Boroughs.
-/bar-2.png
+![Borough Bar Chart ](https://user-images.githubusercontent.com/10215660/85417619-6a3e0400-b5a2-11ea-95df-a2dd8eb327ed.png)
 However, when we turn to borough analysis, there is a different story. The high density of Chinese restaurants in downtown is totally making sense. Then why the number of Chinese Restaurants in North York area stands out?
 
 ### 4.3 Create a choropleth map of Toronto
 
 In order to find reasons for high number of Chinese Restaurants in North York, let us try to create choropleth map of Toronto and see whether there is __positive correlation__ between high population density of East and Southeast Asians and numbers of Chinese Restaurants.
-/choro-1.png
+![choropleth map of Toronto ](https://user-images.githubusercontent.com/10215660/85417629-6c07c780-b5a2-11ea-9707-794f3b78ff0d.png)
 According to [Toronto Open Data](https://www.toronto.ca/wp-content/uploads/2019/01/9710-City_Planning_2016_Census_Profile_2018_CCA_NorthYork.pdf), the North York neighbourhoods are consisted of ward 6, 8, 15, 16, 17, 18, with high density of East and Southeast Asians origins. From the map above we can conclude that there is __positive correlation__ between high population density of East and Southeast Asians and numbers of Chinese Restaurants. That is our first conclusion.
 
 ### 4.4 Create a Map of Szechuan Restaurants
 
-/choro-2.png
+![choropleth map of Szechuan Restaurants](https://user-images.githubusercontent.com/10215660/85417631-6ca05e00-b5a2-11ea-8fed-2d761ca80064.png)
 It seems like most of the Szechuan Restaurants tend to stay in clusters with Chinese Restaurants in downtown areas. None of Szechuan Restaurants are spotted in other neighbourhoods besides downtown Toronto. Let us see if we can create a Heatmap to better visualize it.
 
 ### 4.5  Create Heatmap for Chinese & Szechuan Restaurants.
 
-/heatmap.png
+![Heatmap for Chinese & Szechuan Restaurants](https://user-images.githubusercontent.com/10215660/85417673-75912f80-b5a2-11ea-92ef-d68e69caf6a1.png)
 
 ### 4.6  Create a map for Toronto Business Improvement Area
 
-/bia.png
+![Map for Toronto Business Improvement Area](https://user-images.githubusercontent.com/10215660/85417623-6ad69a80-b5a2-11ea-8c16-ccc7e2541eda.png)
 
 This heatmap shows that most of Szechuan Restaurants are in Kensington Market, Chinatown. Let us create a BIA (Business Improvement Area) map to see whether it can back up our conclusion.
 
@@ -115,8 +115,7 @@ Now we can make several conclusions based on the maps above:
 
 Now let's continue searching for optimal locations for Szechuan restaurants. In this section I will use Density Based Clustering to locate candidates clusters for opening Szechuan Restaurants.
 
-/DBSCAN.png
-
+![DBSCAN Clustering](https://user-images.githubusercontent.com/10215660/85417671-74f89900-b5a2-11ea-9702-ea2c9483b36b.png)
 ## 5. Discussion <a name="results"></a>
 
 Now we have our candidate clusters for opening new Szechuan Restaurants. In order to find the optimal clusters, here I set criterion for this analysis:
@@ -132,108 +131,96 @@ Let us take a look at clusters, from outlier cluster label 0 to label 12. Outlie
 2) No Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) High population density of East and Southeast Asian origins.\
-
-/cluster0.png
+![Cluster 0](https://user-images.githubusercontent.com/10215660/85417635-6d38f480-b5a2-11ea-8933-290070bc845f.png)
 
 * **Cluster 1: Potential**.\
 1) In Chinese Restaurants Clusters;\
 2) Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) High population density of East and Southeast Asian origins.
-
-/cluster1.png
+![Cluster 1](https://user-images.githubusercontent.com/10215660/85417638-6dd18b00-b5a2-11ea-9ad0-1afd5a056d56.png)
 
 * **Cluster 2: Not Recommended**.\
 1) Out of Chinese Restaurants Clusters (potential outlier);\
 2) No Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) High population density of East and Southeast Asian origins.
+![Cluster 2](https://user-images.githubusercontent.com/10215660/85417640-6e6a2180-b5a2-11ea-9c51-e31c66597181.png)
 
-/cluster2.png
 
 * **Cluster 3: Not Recommended**.\
 1) In Chinese Restaurants Clusters;\
 2) **FOUR** Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) High population density of East and Southeast Asian origins.
-
-/cluster3.png
+![Cluster 3](https://user-images.githubusercontent.com/10215660/85417643-6f02b800-b5a2-11ea-86b6-c7f2137a93aa.png)
 
 * **Cluster 4: Fair**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) Out of Downtown BIA area;\
 4) Moderate population density of East and Southeast Asian origins (Near Chinatown).
-
-/cluster4.png
+![Cluster 4](https://user-images.githubusercontent.com/10215660/85417647-6f9b4e80-b5a2-11ea-8926-4721f0cfbc31.png)
 
 * **Cluster 5: Potential**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) Low population density of East and Southeast Asian origins (Near Chinatown).
-
-/cluster5.png
+![Cluster 5](https://user-images.githubusercontent.com/10215660/85417652-7033e500-b5a2-11ea-8d32-4ebcd7ae705d.png)
 
 * **Cluster 6: Potential**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) Low population density of East and Southeast Asian origins (Near Chinatown).
-
-/cluster6.png
+![Cluster 6](https://user-images.githubusercontent.com/10215660/85417655-70cc7b80-b5a2-11ea-9407-19bade73b189.png)
 
 * **Cluster 7: Not Recommended**.\
 1) In Chinese Restaurants Clusters;\
 2) **SIX** Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) High population density of East and Southeast Asian origins (Chinatown).
-
-/cluster7.png
+![Cluster 7](https://user-images.githubusercontent.com/10215660/85417658-71651200-b5a2-11ea-8b40-5b43aa630285.png)
 
 * **Cluster 8: Fair**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) Not in Downtown BIA area;\
 4) Moderate population density of East and Southeast Asian origins.
-
-/cluster8.png
+![Cluster 8](https://user-images.githubusercontent.com/10215660/85417661-71fda880-b5a2-11ea-947f-5d3c9ebdcc2b.png)
 
 * **Cluster 9: Fair**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) Not in Downtown BIA area;\
 4) Moderate population density of East and Southeast Asian origins.
-
-/cluster9.png
+![Cluster 9](https://user-images.githubusercontent.com/10215660/85417662-72963f00-b5a2-11ea-93d1-3987357716c6.png)
 
 * **Cluster 10: Fair**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) Not in Downtown BIA area;\
 4) High population density of East and Southeast Asian origins.
-
-/cluster10.png
+![Cluster 10](https://user-images.githubusercontent.com/10215660/85417664-732ed580-b5a2-11ea-8732-fdd5505f2a56.png)
 
 * **Cluster 11: Fair**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) Not in Downtown BIA area;\
 4) High population density of East and Southeast Asian origins.
-
-/cluster11.png
+![Cluster 11](https://user-images.githubusercontent.com/10215660/85417666-73c76c00-b5a2-11ea-9344-d83afe75d767.png)
 
 * **Cluster 12: Fair**.\
 1) In Chinese Restaurants Clusters;\
 2) No Szechuan Restaurant in Cluster;\
 3) In Downtown BIA area;\
 4) Low population density of East and Southeast Asian origins.
-
-/cluster12.png
+![Cluster 12](https://user-images.githubusercontent.com/10215660/85417668-74600280-b5a2-11ea-9c88-4150af18a750.png)
 
 ## 6. Conclusion <a name="conclusion"></a>
 
-/potential cluster.png
+![Cluster 12](pohttps://user-images.githubusercontent.com/10215660/85417674-7629c600-b5a2-11ea-8e05-347e070bed4e.png)
 
 Finally we have spotted 4 clusters with high potential to open new business. We give it star label with colour blue.
 
